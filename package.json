@@ -2,7 +2,7 @@
   "name": "svg-cors-bug",
   "version": "1.0.0",
   "description": "Demo project to demonstrate SVG CORS behavior when loading external images",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "concurrently \"node server.js\" \"http-server -p 8080\"",
     "test": "echo \"Error: no test specified\" && exit 1"
